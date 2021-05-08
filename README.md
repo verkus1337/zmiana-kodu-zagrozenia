@@ -3,3 +3,5 @@ Prosty skrypt umożliwiający zmianę kodu zagrożenia poprzez menu w grze. Opr�
 
 Webhook zmieniacie w config.lua
 Po pomoc zapraszam na discorda https://discord.gg/3HYD723RBf
+
+Krótki showcase, jak działa: https://streamable.com/035afz
