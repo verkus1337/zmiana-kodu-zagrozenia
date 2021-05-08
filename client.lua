@@ -52,16 +52,16 @@ function OpenMenu()
             menu.close()
         end
         if data.current.value == "kod_zielony" then
-            TriggerServerEvent('verkus:wyslijwebhookaZIELONY');	TriggerEvent('chatMessage',"^4 👮‍♂️ LSPD: ^3Kod zagrożenia został zaaktualizowany. Obecny kod zagrożenia: ^2ZIELONY"); menu.close()
+            TriggerServerEvent('verkus:wyslijwebhookaZIELONY'); TriggerServerEvent("verkus:wiadomosczielony"); menu.close()
         end
         if data.current.value == "kod_pomaranczowy" then
-            TriggerServerEvent('verkus:wyslijwebhookaPOMARANCZOWY'); TriggerEvent('chatMessage',"^4 👮‍♂️ LSPD: ^3Kod zagrożenia został zaaktualizowany. Obecny kod zagrożenia: ^8POMARAŃCZOWY"); menu.close()
+            TriggerServerEvent('verkus:wyslijwebhookaPOMARANCZOWY'); TriggerServerEvent("verkus:wiadomoscpomaranczowy"); menu.close()
         end
         if data.current.value == "kod_czerwony" then
-            TriggerServerEvent('verkus:wyslijwebhookaCZERWONY'); TriggerEvent('chatMessage',"^4 👮‍♂️ LSPD: ^3Kod zagrożenia został zaaktualizowany. Obecny kod zagrożenia: ^1CZERWONY"); menu.close()
+            TriggerServerEvent('verkus:wyslijwebhookaCZERWONY'); TriggerServerEvent("verkus:wiadomoscczerwony"); menu.close()
         end
         if data.current.value == "kod_czarny" then
-            TriggerServerEvent('verkus:wyslijwebhookaCZARNY'); TriggerEvent('chatMessage',"^4 👮‍♂️ LSPD: ^3Kod zagrożenia został zaaktualizowany. Obecny kod zagrożenia: ^4CZARNY"); menu.close()
+            TriggerServerEvent('verkus:wyslijwebhookaCZARNY'); TriggerServerEvent("verkus:wiadomoscczarny"); menu.close()
         end
     end,
     function(data, menu)
